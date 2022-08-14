@@ -1,0 +1,21 @@
+"use strict";
+exports.__esModule = true;
+var point_1 = require("./point");
+//let xCoor: number = 32;
+//let yCoor: number = 54;
+var classOne = new point_1.drawPoint();
+classOne.x = 99;
+classOne.y = 34;
+classOne.drawPoint();
+classOne.senseSum();
+//divider
+var point_2 = require("./point");
+//let xCoor: number = 32;
+//let yCoor: number = 54;
+var classTwo = new point_2.Point(1, 2);
+var getX = classTwo.X;
+classTwo.X = 10;
+//classTwo.x = 99;
+//classTwo.y = 34;
+classTwo.drawPoint();
+classTwo.senseSum();
